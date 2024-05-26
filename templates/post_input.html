@@ -129,7 +129,7 @@
 {% block content %}
     <form action="/post" method="post" class="container" enctype="multipart/form-data">
         <h2>Create Post</h2>
-        <input type="text" name="title" id="title" placeholder="Post Title">
+        <input type="text" name="title" id="title" placeholder="Post Title" required>
         <textarea name="content" id="content" cols="30" rows="10" placeholder="Post Content"></textarea>
         <div class="image-list"></div>
         <input type="file" id="imageInput" name="image" accept="image/*" multiple style="display: none;">
