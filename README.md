@@ -1,5 +1,7 @@
 # Blog Website using Flask
  Blog Website using Flask as a framework
+ Check out the deployed website:
+ [https://tlhh23.pythonanywhere.com/]
 
 # Installation
 Install neccessary library
