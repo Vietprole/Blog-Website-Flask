@@ -30,8 +30,7 @@ with app.app_context():
     from models import *
 migrate = Migrate(app, db)
 
-from routes import *
-
 if __name__ == "__main__":
+    from routes import *
     app.logger.info("Starting app")
     app.run(debug=True)
